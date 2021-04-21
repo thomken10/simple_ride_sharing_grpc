@@ -1,0 +1,53 @@
+syntax ="proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.ride_sharing";
+option java_outer_classname = "ride_sharing.proto";
+option objc_class_prefix = "RTG";
+
+package ridesharing;
+
+message Point {
+  float latitude = 1;
+  float longitude = 2;
+}
+message Rectangle {
+  // One corner of the rectangle.
+  Point lo = 1;
+
+  // The other corner of the rectangle.
+  Point hi = 2;
+}
+message Feature {
+  int32 id_driver =1;
+  string driver_name = 2;
+  string police_number = 3;
+  string car_type = 4;
+  Point location = 5;
+  string location_name = 6;
+  float driver_rating = 7;
+  int32 availability = 8;
+  float distance =9;
+}
+message User{
+  int32 id_user = 1;
+  string user_name = 2;
+  Point location = 3;
+  string location_name = 4;
+}
+message MessageStream{
+  string text = 1;
+}
+message MessageResponse{
+  string text = 1;
+}
+
+service RideSharing{
+  rpc GetUserLocation(Point) returns (User){}
+
+  rpc ListFeatures(Rectangle) returns (stream Feature) {}
+
+  rpc BookingResponse(MessageStream) returns (MessageResponse){}
+
+  rpc FinishedBooking(MessageStream) returns(MessageResponse){}
+}

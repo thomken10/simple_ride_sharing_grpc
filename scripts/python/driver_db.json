@@ -1,0 +1,69 @@
+[
+  {
+    "id_driver": 1,
+    "driver_name": "Andrew Arian",
+    "police_number": "D 1135 AJK",
+    "car_type": "Honda Brio",
+    "location": {"latitude": -6.9218100,"longitude": 107.6070400},
+    "location_name": "Alun-Alun Kota Bandung, West Java, Indonesia",
+    "driver_rating": 5.0,
+    "availability": 1,
+    "distance": 0
+  },
+  {
+    "id_driver": 2,
+    "driver_name": "Budi Ben",
+    "police_number": "D 1124 ATR",
+    "car_type": "Daihatsu Ayla",
+    "location": {"latitude": -6.9293039,"longitude": 107.6070710},
+    "location_name": "Gereja Katolik Santo Paulus, Bandung, West Java, Indonesia",
+    "driver_rating": 4.0,
+    "availability": 1,
+    "distance":0
+  },
+  {
+    "id_driver": 3,
+    "driver_name": "Christian Charlie",
+    "police_number": "D 1168 APJ",
+    "car_type": "Toyota Calya",
+    "location": {"latitude": -6.88914641,"longitude": 107.6161309},
+    "location_name": "Institut Teknologi Harapan Bangsa, Bandung, West Java, Indonesia",
+    "driver_rating": 5.0,
+    "availability": 1,
+    "distance": 0
+  },
+  {
+    "id_driver": 4,
+    "driver_name": "Damar Danu",
+    "police_number": "D 1179 AFV",
+    "car_type": "Suzuki Ignis",
+    "location": {"latitude": -6.91643397,"longitude": 107.5918457},
+    "location_name": "SMA Trinitas, Bandung, West Java, Indonesia",
+    "driver_rating": 4.0,
+    "availability": 1,
+    "distance": 0
+   },
+  {
+    "id_driver": 5,
+    "driver_name": "Endang",
+    "police_number": "D 1179 AFV",
+    "car_type": "Suzuki Ignis",
+    "location": {"latitude": -6.92052457, "longitude": 107.5748843},
+    "location_name": "DGroove Sport and Wellness, Bandung, West Java",
+    "driver_rating": 3.0,
+    "availability": 1,
+    "distance": 0
+  },
+  {
+    "id_driver": 6,
+    "driver_name": "Ferry",
+    "police_number": "D 1356 AYG",
+    "car_type": "Daihatsu Sigra",
+    "location": {"latitude": -6.88909342,"longitude": 107.5961426},
+    "location_name": "Paris Van Java, Bandung, West Java, Indonesia",
+    "driver_rating": 5.0,
+    "availability": 1,
+    "distance": 0
+  }
+
+]
